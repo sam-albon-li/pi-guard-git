@@ -1,0 +1,28 @@
+{
+  "name": "pi-guard-git",
+  "version": "1.0.0",
+  "description": "Pi extension that prompts for explicit permission before any git push",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "test": "node --test test/extension.test.ts",
+    "test:e2e": "bash test/e2e.sh"
+  },
+  "keywords": [
+    "pi-package"
+  ],
+  "files": [
+    "index.ts"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
