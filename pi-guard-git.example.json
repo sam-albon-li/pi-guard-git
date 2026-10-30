@@ -1,0 +1,4 @@
+{
+  "allowBranches": ["feat/*"],
+  "denyBranches": ["main", "release/*"]
+}

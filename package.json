@@ -1,6 +1,6 @@
 {
   "name": "pi-guard-git",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pi extension that prompts for explicit permission before any git push",
   "license": "MIT",
   "type": "module",
